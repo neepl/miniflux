@@ -12,6 +12,7 @@ func Themes() map[string]string {
 		"default":   "Default",
 		"black":     "Black",
 		"sansserif": "Sans-Serif",
+		"cayman":    "Cayman",
 	}
 }
 

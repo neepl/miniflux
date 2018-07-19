@@ -205,6 +205,7 @@ func main() {
 		"default":   []string{"ui/static/css/common.css"},
 		"black":     []string{"ui/static/css/common.css", "ui/static/css/black.css"},
 		"sansserif": []string{"ui/static/css/common.css", "ui/static/css/sansserif.css"},
+		"cayman":    []string{"ui/static/css/cayman.css"},
 	})
 
 	generateBinaryBundle("ui/static/bin.go", glob("ui/static/bin/*"))
